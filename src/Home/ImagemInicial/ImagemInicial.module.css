@@ -1,0 +1,44 @@
+section{ 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+} 
+
+
+.text-container {
+    position: absolute;
+    top: 200px; 
+    left: 20px; 
+    color: white; 
+    max-width: 50%; 
+    z-index: 1; 
+}
+
+.text-container h1 {
+    font-size: 2em; 
+    margin-bottom: 10px; 
+    border: 1px solid #6BD1FF; 
+    background-color: #6BD1FF;
+    border-radius: 15px; 
+    width: 170px; 
+    height: 60px; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.text-container h4 {
+    font-size: 1.5em; 
+    margin-bottom: 10px; 
+}
+
+.text-container p {
+    font-size: 1em; 
+    line-height: 1.5; 
+}

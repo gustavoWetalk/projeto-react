@@ -1,0 +1,12 @@
+header{ 
+   background-color: #262626;
+   display: flex;
+   justify-content: space-between;
+   padding: 25px;
+   align-items: center; 
+}  
+
+header.img{
+   max-width: 150px; 
+   margin-left: 10px; 
+}
